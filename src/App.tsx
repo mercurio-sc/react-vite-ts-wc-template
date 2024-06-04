@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Greeting from "@wc/features/greeting";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
         file and change your own environment variables to set it up the Web
         Component.
       </p>
+      <Greeting />
       <div className="bg-white shadow-md p-4 rounded-md border flex flex-col items-center gap-4">
         <button
           className="px-2 py-1 border-primary rounded-md bg-primary text-foreground-50 font-semibold"
